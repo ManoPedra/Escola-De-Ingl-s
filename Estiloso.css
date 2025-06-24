@@ -1,0 +1,249 @@
+*{
+    
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family:'vapo';
+    src: url('./src/conthras/conthrax-sb.ttf') format('opentype');
+}
+/*vou admitir que o paralax foi de primeira hein*/
+body {
+    background: url(./img/OutroGifManeiroaí.gif) repeat-x;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px;
+  
+    
+}
+
+/*--------------------------------Css do Menu-----------------*/
+.tudo{
+    background-image: url(./img/waporwavegrid.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 10px solid rgb(35, 6, 117);
+    display: grid;
+    width:auto;
+    
+
+}
+
+.Cabeçalho h1{
+    background: linear-gradient( to top, rgb(123, 57, 215),rgb(214, 144, 244));
+    border: 2px solid rgb(133, 75, 133);
+    color: #eaff49;
+    text-shadow:#ffa2cd 0 -2px ;
+}
+
+.tudo::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#menu{
+    
+    height: min-content;
+    border: solid 2.5px #a03cab;
+    
+}
+
+#menu ul{
+    list-style: none;
+    border: solid 2.5px #3cd2e3;
+    background: linear-gradient(to bottom, rgb(83, 0, 79), rgb(0, 0, 0));
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    height: 40px;
+    align-items: center;
+    
+    
+}
+#menu li{
+    
+    text-align: center;
+    border-right: 2px solid rgb(248, 131, 248);
+    width: 150px;
+    padding: 9px;
+    
+}
+#menu ul li a{
+    text-shadow: rgb(87, 87, 87) 0 -3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    
+   
+    
+}
+#menu li:hover{
+    background:rgb(147, 82, 212) 
+    ;
+}
+#menu a:hover{
+    color: rgb(255, 247, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+#cab .imgconf1{
+    border: 2px solid rgb(109, 0, 139);
+   float: left;
+    width: 240px;
+    height: 200x;
+    
+}
+
+
+.fix{
+    clear: both;
+}
+
+
+
+#social img{
+    border: 1px solid;
+    border-style:groove;
+    border-color: rgb(0, 255, 255);
+}
+
+/*-------------------------------------Css do Menu Fim------------------*/
+
+
+
+/*---------------------------section e aside*--------------------------*/
+
+#lateral{
+    
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(126, 0, 228),rgb(31, 121, 106));
+    width: 190px;
+    padding: 5px;
+    border-style: groove;
+    border-color: rgb(184, 11, 77);
+    float: right;
+    
+}
+
+#lateral h1{
+    font-size: 20px;
+    text-align: center;
+    color: #aa1177;
+    border-bottom: 1px solid violet;
+    border-top: -5px;
+    text-shadow:#ee1177 0 -2px ;
+}
+
+#lateral h2{
+    font-size: 15px;
+    text-align: left;
+    color: violet;
+}
+
+#lateral p{
+    text-align: justify;
+    color: #fff;
+}
+#main {
+    background:url(./img/the\ end\ mano.gif) repeat-x;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-left: 70px;
+    color: #fff;
+    border-radius: 10px;
+    width: 650px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-color: rgb(184, 11, 77);
+   
+    
+}
+#main h1 {
+    color: rgb(214, 144, 244);
+    font-size: 25px;
+    border-bottom: 2px solid violet;
+    font-family:'vapo';
+    text-shadow: rgb(238, 0, 255) 0 -2px;
+}
+#main h2{
+    color: rgb(234, 82, 224);
+     font-size: 15px;
+}
+
+#main p{
+    text-align: justify;
+    
+}
+/*-----------------Section e Aside Fim----------------------*/
+
+/*-------Footer-----------*/
+
+#final{
+    border: 5px solid violet;
+    margin-top: 80px;
+   
+    background: linear-gradient(to right,rgb(15, 105, 143), rgb(14, 5, 111));
+    color: rgb(235, 255, 20);
+    border-style: double;
+    border-color: rgb(184, 11, 77);
+    text-shadow: rgb(255, 0, 247) 0 -2px;
+}
+
+#final p {
+    display: inline-block;
+    text-align: center;
+    width: 410px;
+    font-size: larger;
+}
+
+
+
+/* BANNER*/
+#banner img{
+    width: 200px;
+    height:200px
+}
+
+
+
+#Banner{
+    display: flex;
+    width: 960px;
+    height: 384px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-style:double;
+    border-color: rgb(220, 20, 107);
+    margin-left: 130px;
+    border-width: 10px;
+}
+
+#slider img{
+    width: 960px;
+    height: 384px;
+}
+
+#b1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+#b2{
+    position: relative;
+    left: 0px;
+    top: -388px;
+    z-index: 2;
+}
+
+#b3{
+    position: relative;
+    left: 0%;
+    top: -776px;
+    z-index: 3;
+}

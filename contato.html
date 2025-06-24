@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./Estilosocont.css" type="text/css">
+    <title>Escola de Inglês</title> 
+     </head>
+     
+<body onload="slider()">
+<script src="./scriptingles.js"></script>
+    <header id="cab">
+      <div class="tudo">
+        <div class="Cabeçalho">
+          <img src="./img/EscolaDeInglês (2).png" class="imgconf1" id="inglês">
+          <h1>Escola de Inglês - Menu Principal</h1>
+          
+        </div>
+        <nav id="menu">
+          <ul>
+            <li><a href="./Index.html" target="_self" id="a1">Menu Principal</a></li>
+            <li><a href="./svg/módulos.html"target="_self" id="a2">módulos</a></li>
+            <li><a href="./contato.html"target="_self" id="a3">Contatos</a></li>
+          
+          </ul>
+        </nav>
+        
+      </div>
+    </header>
+    
+    <br class="fix">
+
+    <section id="contato">
+    <form name="fcontato" method="POST"action="#">
+      
+      <label> Nome </label> <br>
+      <input type="text" name="fnome" maxlength="50" size="60" autofocus required><br><br>
+      
+      <label >telefone de contato</label><br>
+      <input type="tel" maxlength="15" size="20" name="Ffone" placeholder="(xx)xxxx-xxxx" required><br><br>
+      
+      <label>email de contato</label><br>
+      <input type="email" maxlength="50" size="60" name="Fmail" required><br><br>
+      
+      <label>CEP</label>
+      <input type="text" name="" maxlength="10" size="15" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}" required><br><br>
+      
+      <label>Data de nascimento</label><br>
+      <input type="date" name="Fnascimento" required class="nasc"><br><br>
+      
+      <label>Módulo que pretende iniciar</label>
+      <input type="number" name="Fmodulo" min="1" max="10" step="1" value="1"><br><br>
+      
+      <label>Horario de inicio</label>
+      <input type="time" name="FHorario" step="1800" value="10:00"><br><br>
+      
+      <label>sexo:</label><br><br>
+      <input type="radio" name="sexo" value="Masculino" id="r1"> <label>Masculino</label><br> <input id="r2"type="radio" name="sexo" value="Feminino"><label>Feminino</label><br><br>
+      
+      <label>Data para cadastro</label>
+      <input type="date" name="datadecad" id="cad" required> <br><br>  
+      
+      <label>Cor da pasta - Ao matricular você ganha uma pasta pra guardar seu material</label><br>
+      
+      <input type="color" name="Fcor" value="#008800"><br><br>
+      
+      <input type="submit" value="enviar" class="botão">
+      
+      <input type="reset" value="reset" class="botão">
+    </form>
+    </section>
+    
