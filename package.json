@@ -1,0 +1,15 @@
+{
+  "name": "escola-de-ingl-s",
+  "version": "1.0.0",
+  "description": "é um projeto que minha professora passou em 2022 sobre uma escola fictícia de inglês\r o código deve tar bem parecido do que ela pediu na época mas eu vou mudar algumas coisas",
+  "main": "scriptingles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
