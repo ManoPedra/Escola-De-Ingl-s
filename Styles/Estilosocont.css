@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*vou adimitir que o paralax foi de primeira hein*/
+body {
+    background: url(./../img/OutroGifManeiroaí.gif) ;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 700px;
+    margin: 20px;
+    
+}
+/*--------------------------------Css do Menu-----------------*/
+.tudo{
+    background-image: url(./../img/waporwavegrid.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 10px solid rgb(35, 6, 117);
+    display: grid;
+    width:auto;
+    
+
+}
+
+.Cabeçalho h1{
+    background: linear-gradient( to top, rgb(123, 57, 215),rgb(214, 144, 244));
+    border: 2px solid rgb(133, 75, 133);
+    color: #eaff49;
+    text-shadow:#ffa2cd 0 -2px ;
+}
+
+.tudo::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#menu{
+    
+    height: min-content;
+    border: solid 2.5px #a03cab;
+    
+}
+
+#menu ul{
+    list-style: none;
+    border: solid 2.5px #3cd2e3;
+    background: linear-gradient(to bottom, rgb(83, 0, 79), rgb(0, 0, 0));
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    height: 40px;
+    align-items: center;
+    
+    
+}
+#menu li{
+    
+    text-align: center;
+    border-right: 2px solid rgb(248, 131, 248);
+    width: 150px;
+    padding: 9px;
+    
+}
+#menu ul li a{
+    text-shadow: rgb(87, 87, 87) 0 -3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    
+   
+    
+}
+#menu li:hover{
+    background:rgb(147, 82, 212) 
+    ;
+}
+#menu a:hover{
+    color: rgb(255, 247, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+#cab .imgconf1{
+    border: 2px solid rgb(109, 0, 139);
+   float: left;
+    width: 240px;
+    height: 200x;
+    
+}
+
+
+.fix{
+    clear: both;
+}
+
+nav{
+    
+    border-bottom: 1px solid rgb(185, 185, 185);
+    border-top: 1px solid rgb(185, 185, 185);
+    border-left: 1px solid rgb(185, 185, 185);
+    border-right: 1px solid rgb(185, 185, 185);
+}
+
+#social img{
+    border: 1px solid;
+    border-style:groove;
+    border-color: rgb(0, 255, 255);
+}
+
+.fix{
+    clear: both;
+}
+
+nav{
+    
+    border-bottom: 1px solid rgb(212, 22, 203);
+    border-top: 1px solid rgb(212, 22, 203);
+    border-left: 1px solid rgb(212, 22, 203);
+    border-right: 1px solid rgb(212, 22, 203);
+}
+
+#social img{
+    border: 1px solid;
+    border-style:groove;
+    border-color: rgb(0, 255, 255);
+}
+
+/*-------------------------------------Css do Menu Fim------------------*/
+
+/*--------------------------------------css contato---------------------*/
+#contato{
+    border-radius:  20px;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+    margin-left: 280px;
+    padding: 20px;
+    background: url(./../img/zoin.gif) repeat-x;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+    border-style: double;
+
+}
+
+#contato label{
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+    color: rgb(179, 163, 163);
+}
+
+#contato input{
+ font-size: 15pt;
+ color: rgb(255, 255, 255);
+ background-color: black;
+ border-style:double;
+ border-color: rgb(52, 54, 56);
+ height: 30px;
+ 
+}
+
+.botão{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: beige;
+    cursor: pointer;
+    background-color: blue;
+}
+
+#r1{
+    position: relative;
+    vertical-align: middle;
+    size: 30px;
+}
+#r2{
+    position: relative;
+    vertical-align: middle;
+}
+
+.nasc{
+    cursor:n-resize;
+}
+#cad{
+    cursor: n-resize;
+    
+}
