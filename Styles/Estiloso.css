@@ -14,8 +14,16 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 15px;
+    
   
     
+}
+
+#Haki{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    justify-content: space-evenly;
 }
 
 /*--------------------------------Css do Menu-----------------*/
@@ -119,11 +127,13 @@ body {
     
     border-radius: 10px;
     background: linear-gradient(to bottom, rgb(126, 0, 228),rgb(31, 121, 106));
-    width: 190px;
+    min-width: 5vh;
+    max-width: 20vh;
+    max-height: fit-content;
     padding: 5px;
     border-style: groove;
     border-color: rgb(184, 11, 77);
-    float: right;
+    margin: 3vh;
     
 }
 
@@ -150,12 +160,13 @@ body {
     background:url(./../img/the\ end\ mano.gif) repeat-x;
     background-size: contain;
     background-attachment: fixed;
-    margin-left: 70px;
+    margin: 3vh;
     color: #fff;
     border-radius: 10px;
-    width: 650px;
+    min-width: 50vh;
+    max-width: 80vh;
     padding: 10px;
-    margin-bottom: 20px;
+    
     border-style: groove;
     border-color: rgb(184, 11, 77);
    
@@ -184,66 +195,50 @@ body {
 #final{
     border: 5px solid violet;
     margin-top: 80px;
-   
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
     background: linear-gradient(to right,rgb(15, 105, 143), rgb(14, 5, 111));
     color: rgb(235, 255, 20);
     border-style: double;
     border-color: rgb(184, 11, 77);
     text-shadow: rgb(255, 0, 247) 0 -2px;
+    text-align: end;
 }
 
 #final p {
-    display: inline-block;
-    text-align: center;
-    width: 410px;
     font-size: larger;
 }
 
+#final a:visited{
+    color: #eaff49;
+}
 
 
 /* BANNER*/
-#banner img{
-    width: 200px;
-    height:200px
-}
 
 
 
 #Banner{
     display: flex;
-    width: 960px;
-    height: 384px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    border-style:double;
-    border-color: rgb(220, 20, 107);
-    margin-left: 130px;
-    border-width: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 400vh;
+    max-height: 80vh ;
+    min-height: 50vh;
+    border: solid 1vh #ee1177;
+    margin: 10vh;
+    background-color: #020a4eab;
+    border-radius: 1vh;
+
 }
 
-#slider img{
-    width: 960px;
-    height: 384px;
+#Banner h1{
+     color: #feffaf;
+     text-shadow: 0 -4px #3cd2e3;
+     font-size: 40pt; 
+     padding: 10vh;
+     text-align: center;
+
 }
 
-#b1{
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-}
-
-#b2{
-    position: relative;
-    left: 0px;
-    top: -388px;
-    z-index: 2;
-}
-
-#b3{
-    position: relative;
-    left: 0%;
-    top: -776px;
-    z-index: 3;
-}

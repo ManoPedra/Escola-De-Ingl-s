@@ -1,33 +1,3 @@
 
-satual = 1;
-smax =3;
-stmp = 2000;
-
- 
-function troca (){
-    document.getElementById("b1").style.visibility="hidden";
-    document.getElementById("b2").style.visibility="hidden";
-    document.getElementById("b3").style.visibility="hidden";
-    document.getElementById("b"+ satual).style.visibility="visible";
-    satual = satual + 1
-    if
-    (satual > smax){
-        satual=1;
-    
-    }
-    bebo = bebum
-    
-    
-}
-
-
-function slider (){
-    document.getElementById("b1").style.visibility="hidden";
-    document.getElementById("b2").style.visibility="hidden";
-    document.getElementById("b3").style.visibility="visible";
-    sliderTimer=setInterval(troca,stmp)
 
   
-
-}
-
